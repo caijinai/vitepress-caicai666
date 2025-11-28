@@ -3,8 +3,8 @@
 layout: home
 
 hero:
-  name: "菜菜的博客"
-  text: "be bright.be happy.be myself"
+  name: "菜菜"
+  text: "be bright.be happy.be you"
   tagline: “Keeping memories is a joyful act.”
   actions:
     - theme: brand
@@ -19,7 +19,7 @@ features:
     details: 菜菜的日常记录
   - title: 产品经理知识库
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: 健身记录
+  - title: Feature
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
 ---
 

@@ -2,7 +2,7 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  base:'/vitepresscaicai/',
+  base:'/vitepress-caicai666/',
   title: "菜菜",
   description: "be bright.be happy.be you",
   themeConfig: {
@@ -24,7 +24,7 @@ export default defineConfig({
     ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/caijinai/vitepresscaicai' }
+      { icon: 'github', link: 'https://github.com/caijinai/vitepress-caicai666' }
     ]
   }
 })
