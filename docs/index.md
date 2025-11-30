@@ -3,23 +3,25 @@
 layout: home
 
 hero:
-  name: "菜菜的博客"
-  text: "be bright.be happy.be myself"
-  tagline: “Keeping memories is a joyful act.”
+  name: "阿菜的博客"
+  text: "be bright.be happy.be you"
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
+      text: 产品经理知识库
+      link: /product maneger
+    - theme: brand
+      text: 个人说明书
+      link: /个人说明书
     - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: 思考
+      link: /产品经理的自我思考
 
 features:
-  - title: 个人日记
-    details: 菜菜的日常记录
+  - title: to do
+    details: 把内容分类搞明白
   - title: 产品经理知识库
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: 健身记录
+  - title: Obsidian 同步
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
 ---
 
