@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "808a5b014bfc4a17",
+        "id": "04ce65fa60ff3702",
         "type": "tabs",
         "children": [
           {
-            "id": "b1fec3be97628b6c",
+            "id": "127001493fcbf1bc",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/产品经理的自我思考.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "产品经理的自我思考"
+              "title": "新标签页"
             }
           }
         ]
@@ -184,11 +180,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "b1fec3be97628b6c",
+  "active": "127001493fcbf1bc",
   "lastOpenFiles": [
+    "docs/产品经理的自我思考.md",
     "docs/个人说明书.md",
     "docs/product maneger.md",
-    "docs/产品经理的自我思考.md",
     "未命名.base",
     "未命名.canvas",
     "docs/new.md",
