@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "cf5a14401ef1fb22",
+        "id": "6dfbcf1903ae1919",
         "type": "tabs",
         "children": [
           {
-            "id": "ffe787adfec835c7",
+            "id": "d6839f8cc0b2946e",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -169,10 +169,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "ffe787adfec835c7",
+  "active": "d6839f8cc0b2946e",
   "lastOpenFiles": [
-    "docs/dairy/2025-12-02.md",
     "docs/dairy/2025.md",
+    "docs/dairy/2025-12-02.md",
     "未命名.md",
     "docs/产品经理的自我思考.md",
     "docs/dairy",
