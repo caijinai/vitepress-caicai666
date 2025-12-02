@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "04ce65fa60ff3702",
+        "id": "86bfb1d5bea8a147",
         "type": "tabs",
         "children": [
           {
-            "id": "127001493fcbf1bc",
+            "id": "7aba41163b7ce14e",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -180,11 +180,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "127001493fcbf1bc",
+  "active": "7aba41163b7ce14e",
   "lastOpenFiles": [
-    "docs/产品经理的自我思考.md",
-    "docs/个人说明书.md",
+    "docs/dairy/2025.md",
+    "docs/产品经理.md",
     "docs/product maneger.md",
+    "docs/个人说明书.md",
     "未命名.base",
     "未命名.canvas",
     "docs/new.md",

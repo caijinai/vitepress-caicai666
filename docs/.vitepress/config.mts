@@ -17,9 +17,9 @@ export default defineConfig({
       {
         text: '列表',
         items: [
-          { text: '产品经理知识库', link: '/product maneger.md'},
-          { text: '个人说明书', link: '/个人说明书.md' },
-          { text: '产品经理的自我思考', link: '/产品经理的自我思考.md' }
+          { text: '日记', link: '/dairy/2025.md' },
+          { text: '产品经理', link: '/产品经理.md'}
+          
         ]
         
       }

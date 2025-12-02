@@ -10,8 +10,8 @@ hero:
       text: 产品经理知识库
       link: /product maneger
     - theme: brand
-      text: 个人说明书
-      link: /个人说明书
+      text: 日记
+      link: /dairy/2025
     - theme: alt
       text: 思考
       link: /产品经理的自我思考
