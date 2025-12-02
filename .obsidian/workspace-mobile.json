@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/产品经理的自我思考.md",
+                "file": "docs/dairy/2025.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "产品经理的自我思考"
+              "title": "2025"
             }
           }
         ]
@@ -50,7 +50,7 @@
           "type": "search",
           "state": {
             "query": "",
-            "matchingCase": false,
+            "matchingCase": true,
             "explainSearch": false,
             "collapseAll": false,
             "extraContext": false,
@@ -170,5 +170,12 @@
     }
   },
   "active": "ffe787adfec835c7",
-  "lastOpenFiles": []
+  "lastOpenFiles": [
+    "docs/dairy/2025-12-02.md",
+    "docs/dairy/2025.md",
+    "未命名.md",
+    "docs/产品经理的自我思考.md",
+    "docs/dairy",
+    "未命名"
+  ]
 }
