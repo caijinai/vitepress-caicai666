@@ -3,24 +3,14 @@ import { defineConfig } from 'vitepress'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   base:'/vitepress-caicai666/',
-<<<<<<< HEAD
-  title: "菜菜",
-=======
   title: "Cai's blog",
   
->>>>>>> d69dd78e4947ab6409eb3edf21862fb95a688d96
   description: "be bright.be happy.be you",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
-<<<<<<< HEAD
-      { text: 'Home', link: '/' },
-      { text: 'Examples', link: '/markdown-examples' },
-      { text:'testing',link:'/new'},   
-=======
       { text: '首页', link: '/' },
        
->>>>>>> d69dd78e4947ab6409eb3edf21862fb95a688d96
     ],
 
     sidebar: [
