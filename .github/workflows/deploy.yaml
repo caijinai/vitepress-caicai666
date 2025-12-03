@@ -3,7 +3,7 @@ name: Deploy VitePress site to Pages
 
 on:
   push:
-    branches: [master] # 如果你的默认分支是 main，请改为 [main]
+    branches: [main] # 如果你的默认分支是 main，请改为 [main]
   workflow_dispatch:   # 允许手动触发
 
 # 设置权限
