@@ -4,7 +4,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   base:'/vitepress-caicai666/',
   title: "Cai's blog",
-  
+
   description: "be bright.be happy.be you",
   // 是否展示最近git提交时间
   lastUpdated: true,
