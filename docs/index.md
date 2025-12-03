@@ -7,14 +7,14 @@ hero:
   text: "be bright.be happy.be you"
   actions:
     - theme: brand
-      text: 产品经理知识库
-      link: /product maneger
+      text: 产品经理
+      link: /product/一些有趣的观点
     - theme: brand
       text: 日记
       link: /dairy/2025
     - theme: alt
-      text: 思考
-      link: /产品经理的自我思考
+      text: 如何提高产品能力
+      link: /product/如何提高产品能力
 
 features:
   - title: to do

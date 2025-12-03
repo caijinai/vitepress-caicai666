@@ -4,29 +4,40 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   base:'/vitepress-caicai666/',
   title: "Cai's blog",
-  
+
   description: "be bright.be happy.be you",
+  // 是否展示最近git提交时间
+  lastUpdated: true,
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: '首页', link: '/' },
+      { text: '日记', link: '/dairy/2024.md' },
        
     ],
 
-    sidebar: [
-      {
-        text: '列表',
-        items: [
-          { text: '日记', link: '/dairy/2025.md' },
-          { text: '产品经理', link: '/产品经理.md'}
-          
-        ]
-        
+    sidebar: {
+      'product':[
+       {
+         text: '产品经理',
+         items:[
+          { text: '一些有趣的观点', link: '/product/一些有趣的观点.md'},
+          { text: '如何提升产品能力', link: '/product/如何提高产品能力.md' }, 
+         ]  
+          }
+         ],
+      'dairy':[
+        {
+          text: '日记',
+          items:[
+            { text: '2025年', link: '/dairy/2025.md' },
+            { text: '2024年', link: '/dairy/2024.md' },
+          ]
       }
     ],
-
+  },
     socialLinks: [
       { icon: 'github', link: 'https://github.com/caijinai/vitepress-caicai666' }
-    ]
+    ],
   }
 })
