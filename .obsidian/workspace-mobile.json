@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/dairy/2024.md",
+                "file": "docs/dairy/2025.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2024"
+              "title": "2025"
             }
           }
         ],
@@ -186,12 +186,18 @@
   },
   "active": "11e5faad7f09011e",
   "lastOpenFiles": [
+    "netlify.toml",
+    "docs/dairy/2024.md",
+    "docs/dairy/2023.md",
+    "docs/product/如何提高产品能力.md",
+    "docs/images/house2.jpeg",
+    "docs/images/house1.jpeg",
+    "docs/dairy/22.md",
     "docs/dairy/2025.md",
     "2025-2-23-144045.zip",
     "2025-12-03.md",
     "f76795b572a8676b967ef7f176611060.jpeg",
     "510fd20663f41e716264d31b8ac194c2.jpeg",
-    "docs/product/如何提高产品能力.md",
     "cd85155386b6482cdf03976c9f732def.jpeg",
     "2025-4-14-193552.zip",
     "docs/个人说明书.md",
@@ -202,7 +208,6 @@
     "图片.png",
     "docs/product maneger.md",
     "docs/product/一些有趣的观点.md",
-    "docs/dairy/2024.md",
     "docs/产品经理.md",
     "docs/dairy/2025-12-02.md",
     "docs/产品经理的自我思考.md",
