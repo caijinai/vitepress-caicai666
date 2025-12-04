@@ -1,0 +1,46 @@
+
+/* 方案A：最精准的类+属性选择器组合 */
+.VPHomeHero .main .heading .name.clip[data-v-72cc4481] {
+    /* 1. 核心渐变与裁剪属性 (必须用 !important) */
+    background: linear-gradient(120deg, 
+        #667eea 0%, 
+        #764ba2 25%, 
+        #f093fb 50%, 
+        #f5576c 75%, 
+        #4facfe 100%
+    ) !important;
+    -webkit-background-clip: text !important;
+    background-clip: text !important;
+    color: transparent !important;
+    
+    /* 2. 移除或覆盖可能冲突的默认背景/颜色变量 */
+    --vp-home-hero-name-background: transparent !important;
+    --vp-home-hero-name-color: transparent !important;
+    -webkit-text-fill-color: transparent !important;
+    
+    /* 3. 你的自定义增强样式 */
+    font-size: 3.8rem;
+    font-weight: 800;
+    letter-spacing: -0.5px;
+    line-height: 1.1;
+    background-size: 300% 300%;
+    animation: gradientShift 8s ease infinite;
+}
+
+/* 保留动画关键帧 */
+@keyframes gradientShift {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+    /* Logo渐变边框样式修正 */
+.VPHomeHero .image-container img,
+.VPHomeHero .image img {
+    border-radius: 50%;
+    padding: 4px;
+    background: linear-gradient(135deg, #667eea, #764ba2, #f093fb, #f5576c);
+    background-size: 400% 400%;
+    box-shadow: 0 8px 25px rgba(102, 126, 234, 0.3);
+    animation: gradientRotate 6s ease infinite;
+}
