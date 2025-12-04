@@ -19,7 +19,7 @@ export default defineConfig({
     sidebar: {
       'product':[
        {
-         text: '产品经理',
+         text: '工作笔记',
          items:[
           { text: '一些有趣的观点', link: '/product/一些有趣的观点.md'},
           { text: '如何提升产品能力', link: '/product/如何提高产品能力.md' }, 
