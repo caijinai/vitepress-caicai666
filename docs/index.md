@@ -9,7 +9,7 @@ hero:
     alt: 博客logo
   actions:
     - theme: brand
-      text: 工作笔记
+      text: 产品经理知识库
       link: /product/一些有趣的观点
     - theme: brand
       text: 日常随记
@@ -18,8 +18,9 @@ features:
     - title: 个人说明书
       details: 我是谁，我可以成为谁
       link: /resume
-    - title: 工作笔记
+    - title: 产品经理知识库
       details: 记录与收集工作相关的知识
+      link: /product/产品经理职业技能树
     - title: 待定主题
       details: Lorem ipsum dolor sit amet, consectetur adipiscing
 ---
