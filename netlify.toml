@@ -1,0 +1,11 @@
+[build]
+  # 构建命令，必须和 package.json 里的一致
+  command = "npm run docs:build"
+  # 发布目录，指向 VitePress 构建后生成的文件夹
+  publish = "docs/.vitepress/dist"
+
+[[redirects]]
+  # 单页应用 (SPA) 路由支持，将所有请求重定向到 index.html
+  from = "/*"
+  to = "/index.html"
+  status = 200
