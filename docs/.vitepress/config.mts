@@ -2,7 +2,7 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  base:'/vitepress-caicai666/',
+  base:'/',
   title: "Cai's blog",
 
   description: "be bright.be happy.be you",
