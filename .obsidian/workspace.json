@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/product/产品经理职业技能树.md",
+                "file": "docs/dairy/2024.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "产品经理职业技能树"
+              "title": "2024"
             }
           }
         ]
@@ -186,9 +186,12 @@
   },
   "active": "7aba41163b7ce14e",
   "lastOpenFiles": [
+    "docs/weread/《被讨厌的勇气》划线.md",
+    "docs/weread/读书2025/《被驯化的大脑》.md",
+    "docs/product/产品经理职业技能树.md",
+    "docs/weread/读书2025/index.md",
     "docs/dairy/2022.md",
     "docs/dairy/2024.md",
-    "docs/product/产品经理职业技能树.md",
     "docs/dairy/2023.md",
     "docs/dairy/2025.md",
     "docs/index.md",
