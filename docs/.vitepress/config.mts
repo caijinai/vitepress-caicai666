@@ -34,7 +34,7 @@ export default defineConfig({
             { text: '2025年', link: '/dairy/2025.md' },
             { text: '2024年', link: '/dairy/2024.md' },
             { text: '2023年', link: '/dairy/2023.md' },
-            { text: '2023年', link: '/dairy/2023.md' },
+            { text: '2022年', link: '/dairy/2022.md' },
           ]
       }
     ],

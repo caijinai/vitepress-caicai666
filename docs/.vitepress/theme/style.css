@@ -1,7 +1,7 @@
 
-/* 方案A：最精准的类+属性选择器组合 */
-.VPHomeHero .main .heading .name.clip[data-v-72cc4481] {
-    /* 1. 核心渐变与裁剪属性 (必须用 !important) */
+/* 通用选择器：匹配任何 data-v-* 属性，无论值是什么 */
+.VPHomeHero .main .heading .name.clip {
+    /* 1. 核心渐变与裁剪属性 */
     background: linear-gradient(120deg, 
         #667eea 0%, 
         #764ba2 25%, 
@@ -13,7 +13,7 @@
     background-clip: text !important;
     color: transparent !important;
     
-    /* 2. 移除或覆盖可能冲突的默认背景/颜色变量 */
+    /* 2. 覆盖默认变量 */
     --vp-home-hero-name-background: transparent !important;
     --vp-home-hero-name-color: transparent !important;
     -webkit-text-fill-color: transparent !important;
