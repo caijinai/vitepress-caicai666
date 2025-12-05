@@ -39,8 +39,8 @@
 .VPHomeHero .image img {
     border-radius: 50%;
     padding: 4px;
-    background: linear-gradient(135deg, #667eea, #764ba2, #f093fb, #f5576c);
+    background: linear-gradient(135deg, #667eea, #7e57a5, #f093fb, #f5576c);
     background-size: 400% 400%;
-    box-shadow: 0 8px 25px rgba(102, 126, 234, 0.3);
+    box-shadow: 0 8px 25px rgba(95, 111, 184, 0.3);
     animation: gradientRotate 6s ease infinite;
 }

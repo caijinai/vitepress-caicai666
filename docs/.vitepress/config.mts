@@ -12,6 +12,7 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: '首页', link: '/' },
+      { text: '个人说明书', link: '/resume' },
     
        
     ],
@@ -37,8 +38,25 @@ export default defineConfig({
             { text: '2022年', link: '/dairy/2022.md' },
           ]
       }
-    ],
+        ],
+      'read':[
+        {
+          text: '读书',
+          items:[
+            { text: '《被讨厌的勇气》划线', link: '/weread/《被讨厌的勇气》划线.md' },
+            { text: '《彷徨之刃》', link: '/weread/《彷徨之刃》划线与笔记.md' },
+            { text: '读书2025', link: '/weread/read2025.md' },
+            { text: '被驯化的大脑', link: '/weread/《被驯化的大脑》.md' },
+          ]
+      }
+    ],   
   },
+
+    // 文章底部切换按钮展示文本
+    docFooter: {
+      prev: "上一篇",
+      next: "下一篇",
+    },
   
     socialLinks: [
       { icon: 'github', link: 'https://github.com/caijinai/vitepress-caicai666' }

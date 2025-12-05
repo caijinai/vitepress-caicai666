@@ -14,15 +14,24 @@ hero:
     - theme: brand
       text: 日常随记
       link: /dairy/2025
+    - theme: alt
+      text: 开卷有益
+      link: /weread/《被驯化的大脑》
 features:
-    - title: 个人说明书
-      details: 我是谁，我可以成为谁
-      link: /resume
+    - title: 日常随记
+      details: 预防痴呆，及时记录
+      link: /dairy/2025
     - title: 产品经理知识库
       details: 记录与收集工作相关的知识
       link: /product/产品经理职业技能树
+    - title: 书中自有黄金屋
+      details: 这个标题很俗。读的书不多但是得读，让自己在短视频横行的时代里找到一点控制感
+      link: /weread/《被讨厌的勇气》划线
     - title: 待定主题
       details: Lorem ipsum dolor sit amet, consectetur adipiscing
+    - title: 待定主题
+      details: Lorem ipsum dolor sit amet, consectetur adipiscing
+
 ---
 <!-- 你也可以在这里添加自定义的HTML内容 -->
 <div class="custom-home-section">
