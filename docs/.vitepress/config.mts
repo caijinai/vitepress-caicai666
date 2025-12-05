@@ -1,4 +1,5 @@
 import { defineConfig } from 'vitepress'
+import { sidebar } from './sidebar'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -12,48 +13,12 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: '首页', link: '/' },
-      { text: '个人说明书', link: '/resume' },
-    
-       
+      { text: '个人说明书', link: '/resume.md' },
     ],
-
-    sidebar: {
-      'product':[
-       {
-         text: '产品经理知识库',
-         items:[
-          { text: '一些有趣的观点', link: '/product/一些有趣的观点.md'},
-          { text: '如何提升产品能力', link: '/product/如何提高产品能力.md' }, 
-           { text: '产品经理职业技能树', link: '/product/产品经理职业技能树.md' }, 
-         ]  
-          }
-         ],
-      'dairy':[
-        {
-          text: '日常随记',
-          items:[
-            { text: '2025年', link: '/dairy/2025.md' },
-            { text: '2024年', link: '/dairy/2024.md' },
-            { text: '2023年', link: '/dairy/2023.md' },
-            { text: '2022年', link: '/dairy/2022.md' },
-          ]
-      }
-        ],
-      'read':[
-        {
-          text: '读书',
-          items:[
-            { text: '《被讨厌的勇气》划线', link: '/weread/《被讨厌的勇气》划线.md' },
-            { text: '《彷徨之刃》', link: '/weread/《彷徨之刃》划线与笔记.md' },
-            { text: '读书2025', link: '/weread/read2025.md' },
-            { text: '被驯化的大脑', link: '/weread/《被驯化的大脑》.md' },
-          ]
-      }
-    ],   
-  },
-
-    // 文章底部切换按钮展示文本
-    docFooter: {
+    sidebar: sidebar,
+     
+  // 文章底部切换按钮展示文本
+  docFooter: {
       prev: "上一篇",
       next: "下一篇",
     },

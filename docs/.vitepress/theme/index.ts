@@ -11,3 +11,4 @@ export default {
   // 这里可以添加其他主题增强，例如注册全局组件
   // enhanceApp({ app }) { ... }
 } satisfies Theme
+
