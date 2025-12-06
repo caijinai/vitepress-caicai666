@@ -34,6 +34,7 @@ export default defineConfig({
       { icon: 'github', link: 'https://github.com/caijinai/vitepress-caicai666' }
     ],
 
+    
 search: {
       provider: 'local', // 指定使用本地搜索
       options: {

@@ -28,7 +28,7 @@ features:
       link: /weread/读书2025/2025读书记录
     - title: 饮饮食食
       details: 记录家庭菜单与食谱
-      link: /recipe/汇总
+      link: /recipe/
     - title: 健身训练
       details: 增强肌肉有助于保持积极的情绪和健康的身体
       link: /gym/训练记录
