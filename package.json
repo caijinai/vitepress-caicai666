@@ -9,6 +9,6 @@
     "dev": "npm run generate-index && vitepress dev docs",
     "build": "npm run generate-index && vitepress build docs",
     "generate-index": "node scripts/generate-index.js",
-    "preview": "vitepress preview docs"
+    "docs:preview": "vitepress preview docs"
   }
 }
