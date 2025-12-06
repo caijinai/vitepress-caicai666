@@ -9,6 +9,25 @@ export default defineConfig({
   description: "be bright.be happy.be you",
   // 是否展示最近git提交时间
   lastUpdated: true,
+
+  // 添加 Vite 配置
+  vite: {
+    base: '/vitepress-caicai666/', // 确保 Vite 的 base 也设置
+    build: {
+      assetsDir: 'assets',
+      rollupOptions: {
+        output: {
+          assetFileNames: (assetInfo) => {
+            if (assetInfo.name && assetInfo.name.endsWith('.css')) {
+              return 'assets/style.[hash].css'
+            }
+            return 'assets/[name].[hash][extname]'
+          }
+        }
+      }
+    }
+  },
+
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
