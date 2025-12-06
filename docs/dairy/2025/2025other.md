@@ -38,6 +38,3 @@
 
   
 🤩❤️真是让我感受到有妈的幸福🥰呀
-
-![Attachment.jpeg](blob:capacitor://localhost/e8cb82d6-dc34-41b0-8083-c8b2f300b203)
-
