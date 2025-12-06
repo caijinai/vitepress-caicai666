@@ -10,8 +10,6 @@
     "build": "npm run generate-index && vitepress build docs",
     "generate-index": "node scripts/generate-index.js",
     "docs:preview": "vitepress preview docs"
-  },
-  "dependencies": {
-    "vitepress": "^1.0.0" 
   }
-}
+ 
+  }

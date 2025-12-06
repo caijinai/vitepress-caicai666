@@ -2,7 +2,7 @@ name: Deploy VitePress to GitHub Pages
 
 on:
   push:
-    branches: [main]  # 或你的主分支名称
+    branches: [main]
   workflow_dispatch:
 
 permissions:
@@ -29,19 +29,21 @@ jobs:
           node-version: 18
           cache: npm
       
+      # 确保 Pages 已启用
       - name: Setup Pages
         uses: actions/configure-pages@v4
       
       - name: Install dependencies
-        run: npm ci  # 或 npm install
+        run: npm ci
       
       - name: Build with VitePress
-        run: npm run build  # 确保 package.json 中有 build 脚本
+        run: npm run build
       
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: .vitepress/dist  # VitePress 默认输出目录
+          # 关键修改：使用正确的构建输出路径
+          path: docs/.vitepress/dist  # 你的项目在 docs 目录下
 
   deploy:
     environment:
