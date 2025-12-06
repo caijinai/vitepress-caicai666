@@ -18,27 +18,27 @@ hero:
 features:
   
     - title: 日常随记
-      details: 预防痴呆，及时记录
+      details: 及时记录，预防痴呆。文艺点的说法是，用写作对抗记忆的淡化。
       link: /dairy/2025/index
 
     - title: 产品经理知识库
-      details: 记录与收集工作相关的知识
+      details: 记录与收集工作相关的知识。
       link: /product/产品经理职业技能树
 
     - title: 书中自有黄金屋
-      details: 读的书不多但是得读，让自己在短视频横行的时代里找到一点控制感
+      details: 读的书不多但是得读，让自己在短视频横行的时代里找到一点控制感。
       link: /weread/读书2025/2025读书记录
 
     - title: 饮饮食食
-      details: 记录家庭菜单与食谱
+      details: 人生苦短，何以解忧，唯有暴富与美食。记录爱吃和好吃的食谱。
       link: /recipe/index
     - title: 健身训练
-      details: 增强肌肉有助于保持积极的情绪和健康的身体
+      details: 力量训练有助于增强肌肉，从而帮助保持积极的情绪和健康的身体。
       link: /gym/训练记录
 
 ---
 <!-- 你也可以在这里添加自定义的HTML内容 -->
 <div class="custom-home-section">
-  <h2>🚀 对自己的期许</h2>
-  <p>保持好奇心🧐。热爱生活🎉。变得更强💪。</p>
+  <h2>🌹 许个愿吧</h2>
+  <p>保持好奇心🧐。热爱生活🎉。变得更强💪。亲眼看看极光跟银河🪐。</p>
 </div>
