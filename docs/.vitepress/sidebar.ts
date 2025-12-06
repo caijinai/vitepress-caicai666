@@ -93,6 +93,8 @@ export const sidebar = {
   '/dairy/': generateSidebarFor('dairy', '📔 日记'),
   '/product/': generateSidebarFor('product', '💼 工作笔记'),
   '/weread/': generateSidebarFor('weread', '📝 好好读书'),
+  '/recipe/': generateSidebarFor('recipe', '🍉 好好吃饭'),
+  '/gym/': generateSidebarFor('gym', '🚀 强身健体'),
   
   // 如果需要为其他目录生成，在这里添加
   // '/product/': generateSidebarFor('product', '💼 工作笔记'),

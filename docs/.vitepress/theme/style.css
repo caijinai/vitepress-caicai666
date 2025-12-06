@@ -44,3 +44,108 @@
     box-shadow: 0 8px 25px rgba(95, 111, 184, 0.3);
     animation: gradientRotate 6s ease infinite;
 }
+
+/* Features区域紫色主题样式 */
+:root {
+  /* 定义紫色调色板 */
+  --vp-c-purple: #9966cc;
+  --vp-c-purple-light: #a78bfa;
+  --vp-c-purple-lighter: #c4b5fd;
+  --vp-c-purple-dark: #7c3aed;
+  --vp-c-purple-darker: #6d28d9;
+}
+
+/* 1. Features大标题颜色改为紫色 */
+.VPHome .VPFeatures .title {
+  color: var(--vp-c-purple); /* 主标题改为紫色 */
+}
+
+
+/* 2. 每个feature卡片的标题改为紫色 */
+.VPHome .VPFeatures .item .title {
+  color: var(--vp-c-purple) !important;
+  font-size: 1.3rem;
+  font-weight: 700;
+  margin-bottom: 0.8rem;
+  transition: color 0.3s ease;
+}
+
+/* 针对 VitePress 的 Features 组件 */
+.VPFeature {
+  position: relative;
+  border: 1px solid var(--vp-c-divider-light) !important;
+  border-radius: 12px !important;
+  background-color: var(--vp-c-bg-soft) !important;
+  transition: all 0.3s ease !important;
+  overflow: hidden; /* 确保阴影和边框在圆角内 */
+}
+
+/* 悬停效果 - 紫色边框和阴影 */
+.VPFeature:hover {
+  border-color: #8a2be2 !important;
+  box-shadow: 
+    0 4px 20px rgba(138, 43, 226, 0.25),
+    0 0 0 1px rgba(138, 43, 226, 0.5) !important; /* 添加内层紫色边框效果 */
+  transform: translateY(-2px);
+}
+
+/* 确保内部元素也支持圆角 */
+.VPFeature .icon,
+.VPFeature .title,
+.VPFeature .details {
+  position: relative;
+  z-index: 1;
+}
+
+
+/* 丹紫色主题 */
+:root {
+  /* 丹紫色系 - 主色调 */
+  --vp-c-brand-1: #9966cc;        /* 主丹紫色 */
+  --vp-c-brand-2: #96c;        /* 深丹紫 */
+  --vp-c-brand-3: #8a54e1;        /* 浅丹紫 */
+  
+  /* 按钮相关 */
+  --vp-button-brand-bg: var(--vp-c-brand-1);
+  --vp-button-brand-hover-bg: var(--vp-c-brand-2);
+  --vp-button-brand-active-bg: var(--vp-c-brand-3);
+  
+  /* 链接颜色 */
+  --vp-c-brand: var(--vp-c-brand-1);
+  --vp-c-brand-light: var(--vp-c-brand-3);
+  --vp-c-brand-lighter: #a67aff;
+  --vp-c-brand-dark: var(--vp-c-brand-2);
+  --vp-c-brand-darker: #805ad5;
+  
+  /* 渐变色 */
+  --vp-home-hero-name-color: transparent;
+  --vp-home-hero-name-background: linear-gradient(120deg, #722ed1 30%, #8a54e1);
+  --vp-home-hero-image-background-image: linear-gradient(45deg, #722ed1 50%, #8a54e1 50%);
+}
+
+/* 确保按钮有良好的对比度 */
+.VPButton.brand {
+  color: #fff !important;
+}
+
+/* 悬停效果增强 */
+.VPButton.brand:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(114, 46, 209, 0.3) !important;
+}
+
+/* 行动号召区域特殊样式 */
+.actions .action.primary {
+  background-color: var(--vp-c-brand-1) !important;
+  border-color: var(--vp-c-brand-1) !important;
+  color: white !important;
+  font-weight: 600 !important;
+  padding: 12px 24px !important;
+  border-radius: 8px !important;
+}
+
+.actions .action.primary:hover {
+  background-color: var(--vp-c-brand-2) !important;
+  border-color: var(--vp-c-brand-2) !important;
+  box-shadow: 0 8px 25px rgba(114, 46, 209, 0.4) !important;
+}

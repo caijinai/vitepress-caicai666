@@ -16,7 +16,14 @@ export default defineConfig({
       { text: '个人说明书', link: '/resume.md' },
     ],
     sidebar: sidebar,
-     
+    lastUpdatedText: '更新时间',
+
+    // 设置文章目录显示
+    outline: { 
+      label: '本页目录',
+      level: [1,2],// 只显示一二级标题
+    },
+    
   // 文章底部切换按钮展示文本
   docFooter: {
       prev: "上一篇",
