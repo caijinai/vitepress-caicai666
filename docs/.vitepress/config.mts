@@ -3,7 +3,7 @@ import { sidebar } from './sidebar'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  base:'/',
+  base:'/vitepress-caicai666/',//github pages部署需要设置base路径
   title: "Cai's blog",
 
   description: "be bright.be happy.be you",
