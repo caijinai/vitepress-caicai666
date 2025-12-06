@@ -19,16 +19,19 @@ features:
   
     - title: 日常随记
       details: 预防痴呆，及时记录
-      link: /dairy/2025/
+      link: /dairy/2025/index
+
     - title: 产品经理知识库
       details: 记录与收集工作相关的知识
       link: /product/产品经理职业技能树
+
     - title: 书中自有黄金屋
       details: 读的书不多但是得读，让自己在短视频横行的时代里找到一点控制感
       link: /weread/读书2025/2025读书记录
+
     - title: 饮饮食食
       details: 记录家庭菜单与食谱
-      link: /recipe/
+      link: /recipe/index
     - title: 健身训练
       details: 增强肌肉有助于保持积极的情绪和健康的身体
       link: /gym/训练记录
