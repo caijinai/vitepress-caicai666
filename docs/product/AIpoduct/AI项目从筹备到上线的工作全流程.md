@@ -1,6 +1,6 @@
 # AI项目从筹备到上线的工作全流程
 
-![流程图](/public/AIproduct.png)
+![流程图](/AIproduct.png)
 
 ## 1.**定义产品需求**
     
