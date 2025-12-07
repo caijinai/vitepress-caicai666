@@ -11,10 +11,14 @@
             "id": "037f2d2a96a69438",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "docs/recipe/无敌好吃炒饭.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "新标签页"
+              "title": "无敌好吃炒饭"
             }
           }
         ]
@@ -183,6 +187,8 @@
   "active": "037f2d2a96a69438",
   "lastOpenFiles": [
     "docs/gym/臀腿训练记录.md",
+    "docs/recipe/无敌好吃炒饭.md",
+    "docs/weread/《月亮与六便士》.md",
     "docs/gym/背部训练记录.md",
     "docs/recipe/酱肉包子.md",
     "docs/product/index.md",
@@ -200,7 +206,6 @@
     "docs/weread/《乌合之众》.md",
     "docs/weread/《被讨厌的勇气》划线.md",
     "docs/weread/《彷徨之刃》划线与笔记.md",
-    "docs/recipe/无敌好吃炒饭.md",
     "docs/gym",
     "docs/未命名.md",
     "docs/images/chaofan.png",
@@ -220,7 +225,6 @@
     "docs/weread/读书2025/被驯化的大脑.md",
     "docs/dairy/2023.md",
     "docs/dairy/2024.md",
-    "docs/dairy/2025/12月4日.md",
     "docs/public/logo.png",
     "docs/public/logo.jpg",
     "docs/public",
