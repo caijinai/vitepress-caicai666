@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/recipe/冯小厨版卤牛腱.md",
+                "file": "docs/weread/《月亮与六便士》.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "冯小厨版卤牛腱"
+              "title": "《月亮与六便士》"
             }
           }
         ],
@@ -186,12 +186,13 @@
   },
   "active": "11e5faad7f09011e",
   "lastOpenFiles": [
+    "docs/recipe/无敌好吃炒饭.md",
+    "docs/recipe/冯小厨版卤牛腱.md",
     "docs/weread/读书2025/2025读书记录.md",
     "docs/dairy/2025/2025other.md",
     "docs/dairy/2025/汇总index.md",
     "docs/product/AIpoduct/AI项目从筹备到上线的工作全流程.md",
     "docs/recipe/index.md",
-    "docs/recipe/冯小厨版卤牛腱.md",
     "docs/weread/《乌合之众》.md",
     "docs/product/产品经理职业技能树.md",
     "docs/product/index.md",
@@ -206,7 +207,6 @@
     "docs/product/产品自查手册.md",
     "docs/product/AIpoduct",
     "docs/recipe/菜菜版焖面.md",
-    "docs/recipe/无敌好吃炒饭.md",
     "docs/recipe/小高姐版本酱牛肉.md",
     "docs/recipe/酱肉包子.md",
     "docs/recipe",

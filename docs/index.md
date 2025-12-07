@@ -34,7 +34,7 @@ features:
       link: /recipe/index
     - title: 健身训练
       details: 力量训练有助于增强肌肉，从而帮助保持积极的情绪和健康的身体。
-      link: /gym/训练记录
+      link: /gym/臀腿训练记录
 
 ---
 <!-- 你也可以在这里添加自定义的HTML内容 -->

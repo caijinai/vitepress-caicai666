@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "86bfb1d5bea8a147",
+        "id": "fc9746d3754db39a",
         "type": "tabs",
         "children": [
           {
-            "id": "7aba41163b7ce14e",
+            "id": "037f2d2a96a69438",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/gym/训练记录.md",
+                "file": "docs/recipe/无敌好吃炒饭.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "训练记录"
+              "title": "无敌好吃炒饭"
             }
           }
         ]
@@ -184,8 +184,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "7aba41163b7ce14e",
+  "active": "037f2d2a96a69438",
   "lastOpenFiles": [
+    "docs/gym/臀腿训练记录.md",
+    "docs/recipe/无敌好吃炒饭.md",
+    "docs/weread/《月亮与六便士》.md",
+    "docs/gym/背部训练记录.md",
+    "docs/recipe/酱肉包子.md",
     "docs/product/index.md",
     "docs/recipe/index.md",
     "docs/dairy/2025/index.md",
@@ -195,15 +200,12 @@
     "docs/product/产品自查手册.md",
     "docs/recipe/汇总.md",
     "docs/recipe/小高姐版本酱牛肉.md",
-    "docs/gym/训练记录.md",
     "docs/product/AIpoduct/AI项目从筹备到上线的工作全流程.md",
     "docs/images/AIproduct.png",
-    "docs/recipe/酱肉包子.md",
     "docs/product/AIpoduct",
     "docs/weread/《乌合之众》.md",
     "docs/weread/《被讨厌的勇气》划线.md",
     "docs/weread/《彷徨之刃》划线与笔记.md",
-    "docs/recipe/无敌好吃炒饭.md",
     "docs/gym",
     "docs/未命名.md",
     "docs/images/chaofan.png",
@@ -223,8 +225,6 @@
     "docs/weread/读书2025/被驯化的大脑.md",
     "docs/dairy/2023.md",
     "docs/dairy/2024.md",
-    "docs/dairy/2025/12月4日.md",
-    "docs/dairy/2025/其他2025.md",
     "docs/public/logo.png",
     "docs/public/logo.jpg",
     "docs/public",
