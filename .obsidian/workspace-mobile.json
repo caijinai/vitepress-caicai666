@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/weread/《月亮与六便士》.md",
+                "file": "docs/dairy/2025/11月27日思考 AI 带来的改变.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "《月亮与六便士》"
+              "title": "11月27日思考 AI 带来的改变"
             }
           }
         ],
@@ -186,6 +186,11 @@
   },
   "active": "11e5faad7f09011e",
   "lastOpenFiles": [
+    "docs/dairy/2025/12月4日我有自己的博客了.md",
+    "docs/dairy/2025/12月2日没有带伞但穿了风衣的一天.md",
+    "docs/dairy/2025/12月1日第一次搭无人驾驶.md",
+    "docs/dairy/2025/11月27日思考 AI 带来的改变.md",
+    "docs/weread/《月亮与六便士》.md",
     "docs/recipe/无敌好吃炒饭.md",
     "docs/recipe/冯小厨版卤牛腱.md",
     "docs/weread/读书2025/2025读书记录.md",
@@ -200,7 +205,6 @@
     "scripts/generate-index.js",
     "scripts",
     "docs/weread/读书2025/被驯化的大脑.md",
-    "docs/dairy/2025/11月27日.md",
     "docs/gym/训练记录.md",
     "docs/gym",
     "docs/product/俞军产品方法论.md",
@@ -213,13 +217,9 @@
     "docs/images/menmian.png",
     "docs/images/AIproduct.png",
     "docs/dairy/2025/index.md",
-    "docs/dairy/2025/12月2日.md",
-    "docs/dairy/2025/12月1日.md",
     "docs/dairy/2025/11月27.md",
     "docs/dairy/2022.md",
-    "docs/weread/读书2025/《被驯化的大脑》.md",
     "docs/weread/读书2025",
-    "docs/dairy/2025/12月4日.md",
     "docs/dairy/2025",
     "netlify.toml",
     "docs/images/house2.jpeg",
