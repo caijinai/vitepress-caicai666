@@ -2,7 +2,7 @@
 layout: home
 
 hero:
-  name: "阿菜的博客"
+  name: "在希望的田野上"
   text: "be bright.be happy.be you"
   image:
     src: /logo.png
