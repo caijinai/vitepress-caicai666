@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "fc9746d3754db39a",
+        "id": "fb627207e2011a9a",
         "type": "tabs",
         "children": [
           {
-            "id": "037f2d2a96a69438",
+            "id": "0c97783c0e6dec0a",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/recipe/无敌好吃炒饭.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "无敌好吃炒饭"
+              "title": "新标签页"
             }
           }
         ]
@@ -184,10 +180,20 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "037f2d2a96a69438",
+  "active": "0c97783c0e6dec0a",
   "lastOpenFiles": [
-    "docs/gym/臀腿训练记录.md",
+    "docs/dairy/2025/12月25日-圣诞节吃个巧克力大福.md",
+    "docs/dairy/2025/11月27日-思考人工智能带来的改变.md",
+    "docs/dairy/2025/12月1日-第一次搭无人驾驶.md",
+    "docs/dairy/2025/12月2日-没有带伞但穿了风衣的一天.md",
+    "docs/dairy/2025/12月4日-我有自己的博客了.md",
+    "docs/dairy/2025/12月12日-买了iPhone17promax啦.md",
+    "docs/dairy/2025/12月14日-又又又来文化馆和海珠湖啦.md",
+    "docs/dairy/2025/12月23日-恢复训练！.md",
+    "docs/product/一个需要全局视野的岗位—B端产品经理.md",
+    "docs/dairy/2026/1月1日-元旦快乐.md",
     "docs/recipe/无敌好吃炒饭.md",
+    "docs/gym/臀腿训练记录.md",
     "docs/weread/《月亮与六便士》.md",
     "docs/gym/背部训练记录.md",
     "docs/recipe/酱肉包子.md",
@@ -207,24 +213,14 @@
     "docs/weread/《被讨厌的勇气》划线.md",
     "docs/weread/《彷徨之刃》划线与笔记.md",
     "docs/gym",
-    "docs/未命名.md",
     "docs/images/chaofan.png",
-    "docs/recipe/菜菜版焖面.md",
     "docs/images/chaofan.jpg",
     "docs/images/menmian.png",
     "docs/images/焖面.png",
     "docs/images/焖面.JPEG",
     "docs/images/焖面.JPEG.crdownload",
-    "docs/weread/读书2025/2025读书记录.md",
     "docs/recipe",
     "docs/eat",
-    "docs/dairy/2025/12月2日.md",
-    "docs/product/俞军产品方法论.md",
-    "docs/product/一些有趣的观点.md",
-    "docs/product maneger.md",
-    "docs/weread/读书2025/被驯化的大脑.md",
-    "docs/dairy/2023.md",
-    "docs/dairy/2024.md",
     "docs/public/logo.png",
     "docs/public/logo.jpg",
     "docs/public",

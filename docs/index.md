@@ -23,7 +23,7 @@ features:
 
     - title: 产品经理知识库
       details: 记录与收集工作相关的知识。
-      link: /product/产品经理职业技能树
+      link: /product/index
 
     - title: 书中自有黄金屋
       details: 读的书不多但是得读，让自己在短视频横行的时代里找到一点控制感。
