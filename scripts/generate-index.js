@@ -6,8 +6,49 @@ const path = require('path');
 const TARGET_DIRS = [
   { input: 'docs/dairy/2025/', title: '2025 年日记' },
   { input: 'docs/recipe/', title: '吃货美食菜谱精选' },
+  { input: 'docs/product/', title: '产品经理知识收集' },
+  { input: 'docs/dairy/2026/', title: '2026年的日常记录' },
   // 可以添加更多目录
 ];
+
+/**
+ * 从文件名中提取日期
+ * 支持格式：
+ * 1. "12月2日-没有带伞但穿了风衣的一天" -> 12月2日
+ * 2. "2024-12-01-文章标题" -> 2024-12-01
+ * 3. "12-1-文章标题" -> 12月1日
+ */
+function extractDateFromFileName(fileName) {
+  // 尝试匹配中文日期格式：X月X日
+  const chineseDateMatch = fileName.match(/(\d{1,2})月(\d{1,2})日/);
+  if (chineseDateMatch) {
+    const month = parseInt(chineseDateMatch[1], 10);
+    const day = parseInt(chineseDateMatch[2], 10);
+    // 假设年份为2025（可根据需要调整）
+    return new Date(2025, month - 1, day);
+  }
+  
+  // 尝试匹配标准日期格式：YYYY-MM-DD
+  const standardDateMatch = fileName.match(/(\d{4})-(\d{1,2})-(\d{1,2})/);
+  if (standardDateMatch) {
+    const year = parseInt(standardDateMatch[1], 10);
+    const month = parseInt(standardDateMatch[2], 10);
+    const day = parseInt(standardDateMatch[3], 10);
+    return new Date(year, month - 1, day);
+  }
+  
+  // 尝试匹配简单日期格式：MM-DD
+  const simpleDateMatch = fileName.match(/^(\d{1,2})-(\d{1,2})/);
+  if (simpleDateMatch) {
+    const month = parseInt(simpleDateMatch[1], 10);
+    const day = parseInt(simpleDateMatch[2], 10);
+    // 假设年份为2025
+    return new Date(2025, month - 1, day);
+  }
+  
+  // 如果没有找到日期，返回一个很旧的日期（这样会排在最后）
+  return new Date(1970, 0, 1);
+}
 
 /**
  * 智能格式化文件名
@@ -67,24 +108,25 @@ function generateIndexForDir(dirConfig) {
     return file.endsWith('.md') && file !== 'index.md';
   });
   
-  // 按文件名排序（你可以自定义排序规则）
-  mdFiles.sort((a, b) => {
-    // 提取文件名中的数字前缀进行排序
-    const numA = parseInt(a.match(/^(\d+)/)?.[1] || 0);
-    const numB = parseInt(b.match(/^(\d+)/)?.[1] || 0);
-    return numA - numB; // 升序排列
+  // 为每个文件提取日期并排序（按日期倒序）
+  const fileEntries = mdFiles.map(file => {
+    const fileName = file.replace('.md', '');
+    const date = extractDateFromFileName(fileName);
+    return { file, fileName, date };
   });
+  
+  // 按日期倒序排列（最新的在前面）
+  fileEntries.sort((a, b) => b.date - a.date);
   
   // 生成文章列表的Markdown内容
   let listContent = '';
   let totalCount = 0;
   
-  mdFiles.forEach(file => {
-    const fileName = file.replace('.md', '');
+  fileEntries.forEach(entry => {
     // 使用智能格式化函数
-    const displayName = formatDisplayName(fileName);
+    const displayName = formatDisplayName(entry.fileName);
     
-    listContent += `- [${displayName}](${fileName})\n`;
+    listContent += `- [${displayName}](${entry.fileName})\n`;
     totalCount++;
   });
   
@@ -96,7 +138,7 @@ description: ${title} - 自动生成的索引页
 
 # ${title}
 
-共 ${totalCount} 篇文章，按时间顺序排列。
+共 ${totalCount} 篇文章，按日期倒序排列。
 
 ## 📋 文章列表
 
