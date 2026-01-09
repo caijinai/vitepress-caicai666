@@ -13,13 +13,13 @@ hero:
       link: /product/一些有趣的观点
     - theme: alt
       text: 日常随记
-      link: /dairy/2025/
+      link: /dairy/2026/
    
 features:
   
     - title: 日常随记
       details: 及时记录，预防痴呆。文艺点的说法是，用写作对抗记忆的淡化。
-      link: /dairy/2025/index
+      link: /dairy/2026/index
 
     - title: 产品经理知识库
       details: 记录与收集工作相关的知识。
