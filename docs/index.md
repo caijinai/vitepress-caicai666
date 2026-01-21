@@ -32,9 +32,15 @@ features:
     - title: 饮饮食食
       details: 人生苦短，何以解忧，唯有暴富与美食。记录爱吃和好吃的食谱。
       link: /recipe/index
+
     - title: 健身训练
       details: 力量训练有助于增强肌肉，从而帮助保持积极的情绪和健康的身体。
       link: /gym/臀腿训练记录
+
+    - title: 听听播客
+      details: 对我来说，耳朵比眼睛更容易专注。喜欢听有趣的人聊有趣的事情。
+      link: /podcast/知行小酒馆
+   
 
 ---
 <!-- 你也可以在这里添加自定义的HTML内容 -->
