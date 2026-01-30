@@ -26,8 +26,8 @@ features:
       link: /product/index
 
     - title: 书中自有黄金屋
-      details: 读的书不多但是得读，让自己在短视频横行的时代里找到一点控制感。
-      link: /weread/读书2026/读书记录2026
+      details: 读书有点慢以至于读的书不多，但是喜欢阅读能让自己沉浸与思考，让自己在短视频横行的时代里找到一点控制感。
+      link: /weread/读书2026/index
 
     - title: 饮饮食食
       details: 人生苦短，何以解忧，唯有暴富与美食。记录爱吃和好吃的食谱。
