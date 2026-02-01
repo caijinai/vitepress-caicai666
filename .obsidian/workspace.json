@@ -11,10 +11,14 @@
             "id": "0c97783c0e6dec0a",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "docs/podcast/知行小酒馆.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "新标签页"
+              "title": "知行小酒馆"
             }
           }
         ]
