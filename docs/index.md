@@ -26,7 +26,7 @@ features:
       link: /product/index
 
     - title: 书中自有黄金屋
-      details: 读书有点慢以至于读的书不多，但是喜欢阅读能让自己沉浸与思考，让自己在短视频横行的时代里找到一点控制感。
+      details: 看书慢所以书读的不多，但是喜欢阅读能让自己沉浸与思考。
       link: /weread/读书2026/index
 
     - title: 饮饮食食

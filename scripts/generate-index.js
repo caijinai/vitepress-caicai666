@@ -8,6 +8,7 @@ const TARGET_DIRS = [
   { input: 'docs/recipe/', title: '吃货美食菜谱精选' },
   { input: 'docs/product/', title: '产品经理知识收集' },
   { input: 'docs/dairy/2026/', title: '2026年的日常记录' },
+  { input: 'docs/podcast/知行小酒馆', title: '播客推荐节目' },
   // 可以添加更多目录
 ];
 

@@ -34,15 +34,17 @@
     100% { background-position: 0% 50%; }
 }
 
-    /* Logo渐变边框样式修正 */
+/* Logo圆形紫色光晕效果 */
 .VPHomeHero .image-container img,
 .VPHomeHero .image img {
-    border-radius: 50%;
-    padding: 4px;
-    background: linear-gradient(135deg, #667eea, #7e57a5, #f093fb, #f5576c);
-    background-size: 400% 400%;
-    box-shadow: 0 8px 25px rgba(95, 111, 184, 0.3);
-    animation: gradientRotate 6s ease infinite;
+    /* 确保Logo为圆形 */
+    border-radius: 50% !important;
+    
+    /* 添加紫色光晕效果 */
+    box-shadow: 
+        0 0 15px rgba(153, 102, 204, 0.6),  /* 内层光晕 */
+        0 0 30px rgba(153, 102, 204, 0.4),  /* 中层光晕 */
+        0 0 45px rgba(138, 84, 225, 0.2) !important;  /* 外层光晕 */
 }
 
 /* Features区域紫色主题样式 */
