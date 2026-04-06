@@ -11,10 +11,14 @@
             "id": "5b131389543c2a6f",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "docs/dairy/2026/4月3日-耳石症伴随我的一个月.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "新标签页"
+              "title": "4月3日-耳石症伴随我的一个月"
             }
           }
         ]
@@ -182,11 +186,13 @@
   },
   "active": "5b131389543c2a6f",
   "lastOpenFiles": [
+    "docs/dairy/2026/4月6日-有墙的世界真憋屈.md",
+    "docs/dairy/2026/4月3日-耳石症伴随我的一个月.md",
+    "docs/dairy/2026/1月31日-体能训练使我认真觉得自己活着！.md",
     "未命名 1.base",
     "未命名.base",
     "docs/dairy/2026/1月1日-元旦快乐.md",
     "主数据管理_PRD.md",
-    "docs/dairy/2026/1月31日-体能训练使我认真觉得自己活着！.md",
     "docs/podcast/知行小酒馆/E215：对话欧阳应霁：生活可以没意义，但绝不能没意思.md",
     "docs/podcast/知行小酒馆/E220：对话聂辉华：都说宇宙的尽头是考公，但体制内到底是什么样？.md",
     "docs/podcast/知行小酒馆/index.md",
@@ -210,7 +216,6 @@
     "scripts/generate-index.js",
     "scripts",
     "docs/dairy/2025/汇总index.md",
-    "docs/product/产品自查手册.md",
     "docs/images/AIproduct.png",
     "docs/product/AIpoduct",
     "docs/gym",
