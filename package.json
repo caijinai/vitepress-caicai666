@@ -4,10 +4,11 @@
     "vitepress": "^1.6.4"
   },
   "scripts": {
-    "dev": "npm run generate-index && vitepress dev docs",
-    "build": "npm run generate-index && vitepress build docs",
+    "dev": "npm run generate-index && npm run generate-recent-updates && vitepress dev docs",
+    "build": "npm run generate-index && npm run generate-recent-updates && vitepress build docs",
     "preview": "vitepress preview docs",
     "generate-index": "node scripts/generate-index.js",
+    "generate-recent-updates": "node scripts/generate-recent-updates.js",
     "clean": "rm -rf docs/.vitepress/cache docs/.vitepress/dist node_modules/.vite",
     "deploy": "npm run clean && npm run build"
   }

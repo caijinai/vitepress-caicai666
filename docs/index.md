@@ -43,6 +43,9 @@ features:
    
 
 ---
+
+<RecentUpdatesCarousel />
+
 <!-- 你也可以在这里添加自定义的HTML内容 -->
 <div class="custom-home-section">
   <h2>🌹 许个愿吧</h2>
