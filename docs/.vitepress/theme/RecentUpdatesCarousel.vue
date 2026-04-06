@@ -16,8 +16,8 @@ const isAutoPlay = ref(true)
 
 onMounted(async () => {
   try {
-    // 使用相对路径获取数据
-    const response = await fetch('/vitepress-caicai666/.vitepress/recent-updates.json')
+    // 从 public 目录获取数据（部署后自动复制到根目录）
+    const response = await fetch('/vitepress-caicai666/recent-updates.json')
     if (response.ok) {
       const data = await response.json()
       // 为每个链接添加 base 路径前缀

@@ -121,8 +121,8 @@ function generateRecentUpdates() {
     .sort((a, b) => b.updateTime - a.updateTime) // 按时间倒序排列
     .slice(0, 5); // 取前 5 条
   
-  // 生成输出文件
-  const outputPath = path.join(docsDir, '.vitepress', 'recent-updates.json');
+  // 生成输出文件到 public 目录
+  const outputPath = path.join(docsDir, 'public', 'recent-updates.json');
   fs.writeFileSync(outputPath, JSON.stringify(updates, null, 2), 'utf-8');
   
   console.log(`✅ 已生成 recent-updates.json (${updates.length} 个最新更新)`);
