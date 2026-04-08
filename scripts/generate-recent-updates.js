@@ -119,7 +119,7 @@ function generateRecentUpdates() {
     .map((file) => extractMetadata(file))
     .filter((item) => item !== null)
     .sort((a, b) => b.updateTime - a.updateTime) // 按时间倒序排列
-    .slice(0, 5); // 取前 5 条
+    .slice(0, 10); // 取前 10 条
   
   // 生成输出文件到 public 目录
   const outputPath = path.join(docsDir, 'public', 'recent-updates.json');
