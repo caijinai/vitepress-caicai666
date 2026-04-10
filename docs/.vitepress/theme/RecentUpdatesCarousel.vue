@@ -95,7 +95,7 @@ function toggleAutoPlay() {
         </button>
 
         <div class="carousel-slide">
-          <Transition name="slide" mode="out-in">
+          <Transition name="fade" mode="out-in">
             <div v-if="currentUpdate" :key="currentIndex" class="slide-content">
               <div class="slide-header">
                 <h3 class="slide-title">{{ currentUpdate.title }}</h3>
@@ -226,16 +226,16 @@ function toggleAutoPlay() {
   }
 }
 
-.slide-enter-active,
-.slide-leave-active {
+.fade-enter-active,
+.fade-leave-active {
   transition: opacity 0.5s ease-in-out;
 }
 
-.slide-enter-from {
+.fade-enter-from {
   opacity: 0;
 }
 
-.slide-leave-to {
+.fade-leave-to {
   opacity: 0;
 }
 
