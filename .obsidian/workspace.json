@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "a8d469724e33a17f",
+        "id": "2c1878fa575bb3a2",
         "type": "tabs",
         "children": [
           {
-            "id": "3ce47b19acb9bd76",
+            "id": "7a583213f32bbb88",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/dairy/2026/4月16日-村民朋友们久违的聚餐.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "4月16日-村民朋友们久违的聚餐"
+              "title": "新标签页"
             }
           }
         ]
@@ -184,15 +180,18 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "3ce47b19acb9bd76",
+  "active": "7a583213f32bbb88",
   "lastOpenFiles": [
+    "docs/dairy/2026/1月23日-朗哥的梦笑死我.md",
+    "docs/dairy/2026/3月21日-来芬芬家吃生蚝土鸡火锅.md",
+    "docs/dairy/2026/3月29日-充实的周末.md",
+    "docs/dairy/2026/4月3日-耳石症伴随我的一个月.md",
+    "docs/dairy/2026/4月6日-有墙的世界真憋屈.md",
+    "docs/dairy/2026/4月10日-关于AI和工作的碎碎念.md",
+    "docs/dairy/2026/4月16日-村民朋友们久违的聚餐.md",
     "docs/dairy/2025/other.md",
     "docs/dairy/2023.md",
     "docs/dairy/2024.md",
-    "docs/dairy/2026/4月16日-村民朋友们久违的聚餐.md",
-    "docs/dairy/2026/4月10日-关于AI和工作的碎碎念.md",
-    "docs/dairy/2026/4月6日-有墙的世界真憋屈.md",
-    "docs/dairy/2026/4月3日-耳石症伴随我的一个月.md",
     "docs/dairy/2026/1月31日-体能训练使我认真觉得自己活着！.md",
     "未命名 1.base",
     "未命名.base",
@@ -211,9 +210,6 @@
     "docs/dairy/2025/12月23日-恢复训练！.md",
     "docs/product/一个需要全局视野的岗位—B端产品经理.md",
     "docs/recipe/无敌好吃炒饭.md",
-    "docs/gym/臀腿训练记录.md",
-    "docs/weread/《月亮与六便士》.md",
-    "docs/gym/背部训练记录.md",
     "scripts/generate-index.js",
     "scripts",
     "docs/images/AIproduct.png",
