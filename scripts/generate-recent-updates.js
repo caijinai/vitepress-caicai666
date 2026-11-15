@@ -24,7 +24,11 @@ function getAllMarkdownFiles(dirPath, fileList = []) {
       if (!EXCLUDE_DIRS.includes(file) && !file.startsWith('.')) {
         getAllMarkdownFiles(filePath, fileList);
       }
-    } else if (file.endsWith('.md') && !EXCLUDE_FILES.includes(file)) {
+    } else if (
+      file.endsWith('.md') &&
+      !EXCLUDE_FILES.includes(file) &&
+      !/^\d{4}\.md$/.test(file) // 排除按年合并的日记合集
+    ) {
       fileList.push(filePath);
     }
   });

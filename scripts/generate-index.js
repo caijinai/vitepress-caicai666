@@ -4,6 +4,7 @@ const path = require('path');
 
 // 配置：你要生成索引的目录
 const TARGET_DIRS = [
+  { input: 'docs/dairy/2020/', title: '2020年日记' },
   { input: 'docs/dairy/2025/', title: '2025 年日记' },
   { input: 'docs/recipe/', title: '吃货美食菜谱精选' },
   { input: 'docs/product/', title: '产品经理知识收集' },
@@ -11,6 +12,24 @@ const TARGET_DIRS = [
   { input: 'docs/podcast/知行小酒馆', title: '播客推荐节目' },
   // 可以添加更多目录
 ];
+
+/**
+ * 生成可被 Markdown 正确解析的链接。
+ * 文件名含空格、()、# 等时，普通 () 链接会失效，需用 <> 包裹目标路径。
+ */
+function toMarkdownLink(displayName, fileName) {
+  const text = displayName
+    .replace(/\\/g, '\\\\')
+    .replace(/\[/g, '\\[')
+    .replace(/\]/g, '\\]');
+  // # ? % 会破坏 URL；空格/() 用 <> 包裹即可正确解析
+  const safeName = fileName
+    .replace(/%/g, '%25')
+    .replace(/#/g, '%23')
+    .replace(/\?/g, '%3F');
+  const href = `./${safeName}.md`.replace(/</g, '%3C').replace(/>/g, '%3E');
+  return `- [${text}](<${href}>)`;
+}
 
 /**
  * 从文件名中提取日期
@@ -127,7 +146,7 @@ function generateIndexForDir(dirConfig) {
     // 使用智能格式化函数
     const displayName = formatDisplayName(entry.fileName);
     
-    listContent += `- [${displayName}](${entry.fileName})\n`;
+    listContent += `${toMarkdownLink(displayName, entry.fileName)}\n`;
     totalCount++;
   });
   

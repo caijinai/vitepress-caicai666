@@ -197,16 +197,53 @@ function generateSidebarFor(directory: string, title: string = '目录') {
   ]
 }
 
+/**
+ * 日记侧边栏只挂年份入口，避免把数百篇文章全部塞进 siteData 导致页面卡死、点击无响应
+ * 支持年份目录（如 2026/）和合并后的年份文档（如 2023.md）
+ */
+function generateDairyYearSidebar() {
+  const dairyDir = join(docsRoot, 'dairy')
+  if (!existsSync(dairyDir)) return []
+
+  const yearSet = new Set<string>()
+
+  for (const entry of readdirSync(dairyDir)) {
+    const fullPath = join(dairyDir, entry)
+    if (/^\d{4}$/.test(entry) && statSync(fullPath).isDirectory()) {
+      yearSet.add(entry)
+    } else if (/^\d{4}\.md$/.test(entry) && statSync(fullPath).isFile()) {
+      yearSet.add(entry.replace(/\.md$/, ''))
+    }
+  }
+
+  const years = [...yearSet].sort((a, b) => Number(b) - Number(a))
+  if (years.length === 0) return []
+
+  return [
+    {
+      text: '📔 日记',
+      collapsed: false,
+      items: years.map((year) => {
+        const yearDir = join(dairyDir, year)
+        const link =
+          existsSync(yearDir) && statSync(yearDir).isDirectory()
+            ? `/dairy/${year}/`
+            : `/dairy/${year}`
+        return {
+          text: `${year}年`,
+          link
+        }
+      })
+    }
+  ]
+}
+
 // 导出最终的侧边栏配置
 export const sidebar = {
-  '/dairy/': generateSidebarFor('dairy', '📔 日记'),
+  '/dairy/': generateDairyYearSidebar(),
   '/product/': generateSidebarFor('product', '💼 工作笔记'),
   '/weread/': generateSidebarFor('weread', '📰 慢慢读书'),
   '/recipe/': generateSidebarFor('recipe', '🍉 好好吃饭'),
   '/gym/': generateSidebarFor('gym', '💪 强身健体'),
   '/podcast/': generateSidebarFor('podcast', '👂倾听世界'),
-  
-  // 如果需要为其他目录生成，在这里添加
-  // '/product/': generateSidebarFor('product', '💼 工作笔记'),
-  // '/notes/': generateSidebarFor('notes', '📝 笔记'),
 }

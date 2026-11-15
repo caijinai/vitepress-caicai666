@@ -47,6 +47,13 @@
         0 0 45px rgba(138, 84, 225, 0.2) !important;  /* 外层光晕 */
 }
 
+/* 避免 hero 图片层挡住按钮/链接点击 */
+.VPHomeHero .image,
+.VPHomeHero .image-bg,
+.VPHomeHero .image-container {
+    pointer-events: none;
+}
+
 /* Features区域紫色主题样式 */
 :root {
   /* 定义紫色调色板 */
