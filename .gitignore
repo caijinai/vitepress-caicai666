@@ -3,3 +3,15 @@ dist
 node_modules 
 # 保留 GitHub Actions 工作流配置目录
 !.github/workflows
+
+# docs/dairy/2020 下指定日期日记不上传
+docs/dairy/2020/*5月18日*
+docs/dairy/2020/*5月20日*
+docs/dairy/2020/*6月3日*
+docs/dairy/2020/*6月7日*
+docs/dairy/2020/*6月10日*
+docs/dairy/2020/*6月15日*
+docs/dairy/2020/*6月16日*
+docs/dairy/2020/*6月30日*
+docs/dairy/2020/*7月1日*
+docs/dairy/2020/*7月11日*

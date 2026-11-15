@@ -1,0 +1,42 @@
+{
+  "generalSettings": {
+    "displayNotesCreatedOnDate": true,
+    "displayNoteIndicator": true,
+    "displayCreatedNoteCountIndicator": true,
+    "useModifierKeyToCreateNote": false,
+    "firstDayOfWeek": 1,
+    "weekNumberStandard": 0
+  },
+  "notesSettings": {
+    "displayDateTemplate": "HH:mm",
+    "useCreatedOnDateFromProperties": true,
+    "createdOnDatePropertyName": "created_on",
+    "createdOnPropertyFormat": "yyyy/MM/dd HH:mm",
+    "sortNotes": "ascending"
+  },
+  "dailyNotes": {
+    "nameTemplate": "yyyy-MM-dd",
+    "folder": "dairy/2026",
+    "templateFile": "Templates/Daily note"
+  },
+  "weeklyNotes": {
+    "nameTemplate": "yyyy-ww",
+    "folder": "Weekly notes",
+    "templateFile": "Templates/Weekly note"
+  },
+  "monthlyNotes": {
+    "nameTemplate": "yyyy-MM",
+    "folder": "Monthly notes",
+    "templateFile": "Templates/Monthly note"
+  },
+  "quarterlyNotes": {
+    "nameTemplate": "yyyy-qqq",
+    "folder": "Quarterly notes",
+    "templateFile": "Templates/Quarterly note"
+  },
+  "yearlyNotes": {
+    "nameTemplate": "yyyy",
+    "folder": "Yearly notes",
+    "templateFile": "Templates/Yearly note"
+  }
+}
