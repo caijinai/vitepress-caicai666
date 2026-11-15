@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "dairy/2021/9月24日-生活很无聊.md",
+                "file": "dairy/2020/2020年11月28日-去爬帽峰山啦.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "9月24日-生活很无聊"
+              "title": "2020年11月28日-去爬帽峰山啦"
             }
           }
         ]
@@ -180,6 +180,16 @@
             "state": {
               "type": "daily-note-calendar",
               "state": {},
+              "icon": "lucide-ghost",
+              "title": "daily-note-calendar"
+            }
+          },
+          {
+            "id": "550353c418f7cd29",
+            "type": "leaf",
+            "state": {
+              "type": "daily-note-calendar",
+              "state": {},
               "icon": "calendar",
               "title": "Daily note calendar"
             }
@@ -205,6 +215,10 @@
   },
   "active": "25ec366863c05afa",
   "lastOpenFiles": [
+    "dairy/2020/2020年11月26日-今天午餐吃半价寿司呀🍣.md",
+    "dairy/2020/2020年11月25日-小东今天有点不高兴咩.md",
+    "dairy/2020/2020年11月24日-饭后散个步.md",
+    "dairy/2020/2020年3月1日-大学城野餐.md",
     "dairy/2021/9月20日-今天来汕头逛逛.md",
     "dairy/2021/9月18日-中秋节回家啦.md",
     "dairy/2021/9月16日-哈哈哈，居然没有大反弹.md",
@@ -227,10 +241,6 @@
     "dairy/2021/6月27日-谢谢猪头老板请的喜茶.md",
     "dairy/2021/6月23日-你这种人没朋友的哈哈.md",
     "dairy/2021/6月12日-一个人吃寿司.md",
-    "dairy/2021/6月10日-例假了。。做了。。出血了。。❤.md",
-    "dairy/2021/6月9日-早上来个有氧，神清气爽.md",
-    "dairy/2021/6月7日-你要主动一点，多学习一点.md",
-    "dairy/2021/6月6日-与男朋友的对话❤.md",
     "dairy/2024",
     "dairy/2023",
     "dairy/2022",

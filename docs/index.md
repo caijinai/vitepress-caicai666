@@ -48,6 +48,8 @@ features:
 
 <!-- 你也可以在这里添加自定义的HTML内容 -->
 <div class="custom-home-section">
-  <h2>🌹 许个愿吧</h2>
-  <p>保持好奇心🧐。热爱生活🎉。变得更强💪。亲眼看看极光跟银河🪐。</p>
+  <div class="wish-content">
+    <h2>🌹 许个愿吧</h2>
+    <p>保持好奇心🧐。热爱生活🎉。变得更强💪。亲眼看看极光跟银河🪐。</p>
+  </div>
 </div>
