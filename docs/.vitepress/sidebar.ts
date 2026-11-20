@@ -94,7 +94,8 @@ function scanDirectory(dirPath: string, basePath: string = ''): any[] {
 
       const itemName = basename(entry, '.md')
       const relativePath = basePath ? `${basePath}/${entry}` : entry
-      const linkPath = `/${relativePath.replace(/\.md$/, '')}`
+      // 文件名里的 % 必须编码，否则 VitePress 渲染侧边栏时 decodeURI 会抛 URI malformed
+      const linkPath = `/${relativePath.replace(/\.md$/, '').replace(/%/g, '%25')}`
 
       if (isDirectory) {
         // 如果是目录，递归处理其内容
