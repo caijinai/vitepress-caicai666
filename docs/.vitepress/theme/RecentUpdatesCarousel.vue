@@ -23,11 +23,6 @@ onMounted(async () => {
       // 为每个链接添加 base 路径前缀
       updates.value = data.map((item: any) => ({
         ...item,
-        summary: String(item.summary || '')
-          .replace(/<br\s*\/?>/gi, ' ')
-          .replace(/<[^>]+>/g, '')
-          .replace(/\s+/g, ' ')
-          .trim(),
         path: '/vitepress-caicai666' + item.path
       }))
       startAutoPlay()
@@ -172,13 +167,11 @@ function toggleAutoPlay() {
 
 .carousel-title {
   text-align: center;
-  font-family: var(--floral-font-display);
-  font-size: 1.7rem;
-  letter-spacing: 0.08em;
+  font-size: 1.5rem;
   margin: 0 0 1.5rem 0 !important;
   padding: 0 1.5rem !important;
-  color: var(--floral-rose, var(--vp-c-brand));
-  font-weight: 500;
+  color: var(--vp-c-brand);
+  font-weight: 600;
   border: none !important;
   border-top: none !important;
   border-bottom: none !important;
@@ -202,9 +195,9 @@ function toggleAutoPlay() {
   min-height: 140px;
   margin: 0 0.6rem;
   padding: 1.5rem;
-  background: rgba(255, 252, 250, 0.88);
-  border-radius: 16px;
-  border: 1px solid rgba(196, 160, 168, 0.24);
+  background: var(--vp-c-bg);
+  border-radius: 8px;
+  border: 1px solid var(--vp-c-divider);
   display: flex;
   align-items: center;
   overflow: hidden;
@@ -256,12 +249,10 @@ function toggleAutoPlay() {
 
 .slide-title {
   flex: 1;
-  font-family: var(--floral-font-display);
-  font-size: 1.2rem;
-  font-weight: 500;
+  font-size: 1.1rem;
   margin: 0;
-  color: var(--floral-rose, var(--vp-c-brand));
-  line-height: 1.4;
+  color: var(--vp-c-brand);
+  line-height: 1.3;
 }
 
 .slide-date {
@@ -285,10 +276,10 @@ function toggleAutoPlay() {
 .slide-link {
   display: inline-block;
   margin-top: 0.8rem;
-  padding: 0.35rem 0.9rem;
-  color: var(--floral-rose, var(--vp-c-brand));
-  background: rgba(196, 139, 154, 0.14);
-  border-radius: 999px;
+  padding: 0.3rem 0.8rem;
+  color: var(--vp-c-brand);
+  background: var(--vp-c-brand-soft);
+  border-radius: 4px;
   font-weight: 500;
   font-size: 0.9rem;
   text-decoration: none;
@@ -304,11 +295,11 @@ function toggleAutoPlay() {
   flex-shrink: 0;
   width: 40px;
   height: 40px;
-  border: 1px solid rgba(196, 160, 168, 0.35);
-  background: rgba(255, 252, 250, 0.9);
-  color: var(--floral-rose, var(--vp-c-text-1));
+  border: 1px solid var(--vp-c-divider);
+  background: var(--vp-c-bg);
+  color: var(--vp-c-text-1);
   cursor: pointer;
-  border-radius: 50%;
+  border-radius: 6px;
   font-size: 1.3rem;
   display: flex;
   align-items: center;

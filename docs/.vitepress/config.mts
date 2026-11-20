@@ -6,7 +6,6 @@ export default defineConfig({
   base: '/vitepress-caicai666/', // GitHub Pages 仓库名
   title: "Cai's blog",
   description: "be bright.be happy.be you",
-  appearance: false, // 关闭白天/黑夜模式切换
   lastUpdated: true,
 
   // 修正 Vite 配置（移除嵌套）
