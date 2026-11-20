@@ -5,7 +5,7 @@ hero:
   name: "在希望的田野上"
   text: "be bright.be happy.be you"
   image:
-    src: /logo.png
+    src: /logo.png?v=floral
     alt: 博客logo
   actions:
     - theme: brand
